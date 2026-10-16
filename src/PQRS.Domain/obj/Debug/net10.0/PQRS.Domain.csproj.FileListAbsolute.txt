@@ -1,0 +1,15 @@
+C:\WORKSPACE\PQRS\src\PQRS.Domain\bin\Debug\net10.0\PQRS.Domain.deps.json
+C:\WORKSPACE\PQRS\src\PQRS.Domain\bin\Debug\net10.0\PQRS.Domain.dll
+C:\WORKSPACE\PQRS\src\PQRS.Domain\bin\Debug\net10.0\PQRS.Domain.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.AssemblyInfoInputs.cache
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.AssemblyInfo.cs
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.csproj.CoreCompileInputs.cache
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.dll
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\refint\PQRS.Domain.dll
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Domain.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\ref\PQRS.Domain.dll
+C:\Users\57311\AppData\Local\Temp\claude\C--WORKSPACE-TransforGit\20e75621-445c-4c9f-8179-77d1720562bd\scratchpad\build\PQRS.Domain.deps.json
+C:\Users\57311\AppData\Local\Temp\claude\C--WORKSPACE-TransforGit\20e75621-445c-4c9f-8179-77d1720562bd\scratchpad\build\PQRS.Domain.dll
+C:\Users\57311\AppData\Local\Temp\claude\C--WORKSPACE-TransforGit\20e75621-445c-4c9f-8179-77d1720562bd\scratchpad\build\PQRS.Domain.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Domain\obj\Debug\net10.0\PQRS.Dom.25FA3DAB.Up2Date

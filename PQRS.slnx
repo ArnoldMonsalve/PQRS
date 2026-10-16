@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/PQRS.Application/PQRS.Application.csproj" />
+  <Project Path="src/PQRS.Desktop/PQRS.Desktop.csproj" />
+  <Project Path="src/PQRS.Domain/PQRS.Domain.csproj" />
+  <Project Path="src/PQRS.Infrastructure/PQRS.Infrastructure.csproj" />
+</Solution>

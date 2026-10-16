@@ -1,0 +1,43 @@
+<UserControl x:Class="PQRS.Desktop.Views.Admin.AreasAdminView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="24"/>
+            <ColumnDefinition Width="340"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid ItemsSource="{Binding Areas}" SelectedItem="{Binding Seleccionada}"
+                  AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single"
+                  HeadersVisibility="Column" GridLinesVisibility="Horizontal" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
+                <DataGridTextColumn Header="Correo de notificación" Binding="{Binding CorreoNotificacion}" Width="200"/>
+                <DataGridCheckBoxColumn Header="Activo" Binding="{Binding Activo, Mode=OneWay}" Width="60"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <ScrollViewer Grid.Column="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="Área o dependencia" Style="{StaticResource Seccion}"/>
+
+                <TextBlock Text="Nombre *" Style="{StaticResource Etiqueta}"/>
+                <TextBox Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged}" MaxLength="150"/>
+
+                <TextBlock Text="Correo de notificación" Style="{StaticResource Etiqueta}"/>
+                <TextBox Text="{Binding CorreoNotificacion, UpdateSourceTrigger=PropertyChanged}" MaxLength="200"/>
+
+                <CheckBox Content="Activa" IsChecked="{Binding Activo}" Margin="0,12,0,0"/>
+
+                <TextBlock Text="{Binding MensajeError}" Foreground="#C62828" TextWrapping="Wrap" Margin="0,12,0,0"/>
+                <TextBlock Text="{Binding MensajeExito}" Foreground="#2E7D32" FontWeight="SemiBold" TextWrapping="Wrap" Margin="0,12,0,0"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+                    <Button Content="Guardar" Command="{Binding GuardarCommand}" Padding="22,7"/>
+                    <Button Content="Nueva" Command="{Binding NuevoCommand}" Padding="22,7" Margin="10,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

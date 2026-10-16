@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wCIyRAjke8c=",
+  "success": true,
+  "projectFilePath": "C:\\WORKSPACE\\PQRS\\src\\PQRS.Domain\\PQRS.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\57311\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.12\\microsoft.netcore.app.runtime.win-x64.10.0.12.nupkg.sha512",
+    "C:\\Users\\57311\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.12.nupkg.sha512",
+    "C:\\Users\\57311\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\microsoft.aspnetcore.app.runtime.win-x64.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

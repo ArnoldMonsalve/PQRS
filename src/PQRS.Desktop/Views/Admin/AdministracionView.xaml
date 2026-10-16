@@ -1,0 +1,14 @@
+<UserControl x:Class="PQRS.Desktop.Views.Admin.AdministracionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DockPanel Margin="24,24,24,16">
+        <TextBlock DockPanel.Dock="Top" Text="Administración" FontSize="22" FontWeight="Bold" Margin="0,0,0,12"/>
+        <TabControl>
+            <TabItem Header="Usuarios"><ContentControl Content="{Binding Usuarios}"/></TabItem>
+            <TabItem Header="Tipos de solicitud"><ContentControl Content="{Binding Tipos}"/></TabItem>
+            <TabItem Header="Categorías"><ContentControl Content="{Binding Categorias}"/></TabItem>
+            <TabItem Header="Áreas"><ContentControl Content="{Binding Areas}"/></TabItem>
+            <TabItem Header="Organización"><ContentControl Content="{Binding Organizacion}"/></TabItem>
+        </TabControl>
+    </DockPanel>
+</UserControl>

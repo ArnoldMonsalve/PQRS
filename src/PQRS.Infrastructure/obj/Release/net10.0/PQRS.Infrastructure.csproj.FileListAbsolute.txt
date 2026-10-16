@@ -1,0 +1,17 @@
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Infrastructure.deps.json
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Infrastructure.dll
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Infrastructure.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Application.dll
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Domain.dll
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Application.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\bin\Release\net10.0\PQRS.Domain.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.csproj.AssemblyReference.cache
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.AssemblyInfoInputs.cache
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.AssemblyInfo.cs
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Inf.BAB8B92B.Up2Date
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.dll
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\refint\PQRS.Infrastructure.dll
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\PQRS.Infrastructure.pdb
+C:\WORKSPACE\PQRS\src\PQRS.Infrastructure\obj\Release\net10.0\ref\PQRS.Infrastructure.dll

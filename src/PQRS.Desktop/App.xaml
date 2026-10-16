@@ -1,0 +1,60 @@
+﻿<Application x:Class="PQRS.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:PQRS.Desktop.ViewModels"
+             xmlns:vma="clr-namespace:PQRS.Desktop.ViewModels.Admin"
+             xmlns:views="clr-namespace:PQRS.Desktop.Views"
+             xmlns:viewsa="clr-namespace:PQRS.Desktop.Views.Admin"
+             xmlns:conv="clr-namespace:PQRS.Desktop.Converters">
+    <Application.Resources>
+        <conv:EstadoTextoConverter x:Key="EstadoTexto"/>
+        <conv:TamanoArchivoConverter x:Key="TamanoArchivo"/>
+
+        <!-- Estilos compartidos -->
+        <Style x:Key="Etiqueta" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,10,0,3"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+        <Style x:Key="Seccion" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,0,0,2"/>
+        </Style>
+        <Style TargetType="TextBox"><Setter Property="Padding" Value="5"/></Style>
+        <Style TargetType="ComboBox"><Setter Property="Padding" Value="5"/></Style>
+
+        <!-- Cada ViewModel se muestra con su vista -->
+        <DataTemplate DataType="{x:Type vm:RadicarSolicitudViewModel}">
+            <views:RadicarSolicitudView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:BandejaSolicitudesViewModel}">
+            <views:BandejaSolicitudesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:DetalleSolicitudViewModel}">
+            <views:DetalleSolicitudView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:ReportesViewModel}">
+            <views:ReportesView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vma:AdministracionViewModel}">
+            <viewsa:AdministracionView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vma:UsuariosAdminViewModel}">
+            <viewsa:UsuariosAdminView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vma:TiposAdminViewModel}">
+            <viewsa:TiposAdminView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vma:CategoriasAdminViewModel}">
+            <viewsa:CategoriasAdminView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vma:AreasAdminViewModel}">
+            <viewsa:AreasAdminView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vma:OrganizacionAdminViewModel}">
+            <viewsa:OrganizacionAdminView/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
